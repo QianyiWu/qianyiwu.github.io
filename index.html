@@ -1,372 +1,263 @@
-<!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+
+<html>
 <head>
-
-   <!--- Basic Page Needs
-   ================================================== -->
-  <meta charset="utf-8">
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 	<title>Qianyi Wu</title>
-	<meta name="description" content="Research and Personal Projects">
-	<meta name="author" content="qianyi">
+	<meta content="Qianyi Wu" name="keywords" />
+	<style media="screen" type="text/css">html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0pt none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0pt;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: 0pt;
+  padding: 0pt;
+  vertical-align: baseline;
+}
+a {
+  color: #1772d0;
+  text-decoration:none;
+}
+a:focus, a:hover {
+  color: #f09228;
+  text-decoration:none;
+}
+a.paper {
+  font-weight: bold;
+  font-size: 14pt;
+}
+b.paper {
+  font-weight: bold;
+  font-size: 14pt;
+}
+* {
+  margin: 0pt;
+  padding: 0pt;
+}
+body {
+  position: relative;
+  margin: 3em auto 2em auto;
+  width: 1000px;
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  background: #eee;
+}
+h2 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 17pt;
+  font-weight: 700;
+}
+h3 {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+strong {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight:bold;
+}
+ul { 
+  list-style: circle;
+}
+img {
+  border: none;
+}
+li {
+  padding-bottom: 0.5em;
+  margin-left: 1.4em;
+}
+alert {
+  font-family: Lato, Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FF0000;
+}
+em, i {
+	font-style:italic;
+}
+div.section {
+  clear: both;
+  margin-bottom: 1.5em;
+  background: #eee;
+}
+div.spanner {
+  clear: both;
+}
+div.paper {
+  clear: both;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em 1em 1em 1em;
+}
+div.paper div {
+  padding-left: 230px;
+}
+img.paper {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 200px;
+}
+span.blurb {
+  font-style:italic;
+  display:block;
+  margin-top:0.75em;
+  margin-bottom:0.5em;
+}
+pre, code {
+  font-family: 'Lucida Console', 'Andale Mono', 'Courier', monospaced;
+  margin: 1em 0;
+  padding: 0;
+}
+div.paper pre {
+  font-size: 0.9em;
+}
+</style>
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href="css/default.css">
-	 <link rel="stylesheet" href="css/layout.css">
-   <link rel="stylesheet" href="css/academicons/css/academicons.css"/>
-   <link rel="stylesheet" href="css/media-queries.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-
-   <!-- Icon
-	================================================== -->
-	<link rel="shortcut icon" href="media/my_image.jpg" >
-
+<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" /><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>--><!--<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>-->
 </head>
-
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-45959174-3', 'kailigo.github.io');
+  ga('send', 'pageview');
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66888300-1', 'auto');
+  ga('send', 'pageview');
+</script>
 <body>
-
-
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
-      <nav id="nav-wrap">
-
-        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#about">About</a></li>
-            <li><a class="smoothscroll" href="#publication">Publications</a></li>
-            <!--li><a class="smoothscroll" href="#research">Research</a></li-->
-            <!-- <li><a class="smoothscroll" href="#Link">Link</a></li> -->
-
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="media/my_image.jpg" alt="" />
-
-         </div>
-
-         <div class="nine columns main-col">
-
-            <h1><font color="white">Qianyi Wu</font></h1> 
-
-            <!-- <h5> <font color="white"> Doktorand, Perceiving Systems </font> </h5> -->
-            <h5> <font color="white"> University of Science and Technology of China </font> </h5>
-            <font color="white"> wqy9619_AT_mail.ustc.edu.cn </font>
-            <footer>
-              <div class="row">
-
-               <div class="twelve columns">
-                  <ul class="social-links">
-                     <!-- <li><a href="https://scholar.google.de/citations?user=K-Xbnp8AAAAJ" target="_blank"><i class="fa fa-google-scholar"></i></a></li> -->
-                     <li><a href="https://github.com/QianyiWu" target="_blank" title="Github"><i class="fa fa-github"></i></a></li>
-                     <li><a href="media/CV.pdf" target="_blank" title="resume"><i class="fa fa-file"></i></a></li>
-                  </ul>
-               </div>
-              </div>
-            </footer>
-         </div>
-
-     </div> <!-- end .main-col -->
-
-      </div>
-
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
-
-
-</section> <!-- About Section End-->
-
-
- 
-
-
-<section id="teser">
-
- <div class="row add-bottom">
-   <p class="lead">
-     Qianyi Wu is currently a Master student in School of Mathematical Sciences at University of Science and Technology of China (USTC), under the supervision of <a href="http://staff.ustc.edu.cn/~juyong/">Prof. Juyong Zhang</a>. He obtained his Bachelor’s degree from School of Gifted Youth of USTC in 2016.
-     
-   </p>
-  <h5>Timeline. </h5>
-  <dl class="lining">
- <!--    <dt> Fall 2018</dt> <dd>  Research Intern, NVIDIA Research </dd>
-    <dt> Summer 2017</dt> <dd>  Research Intern, Applied Machine Learning, Facebook Research </dd>
-    <dt> Since 2016</dt> <dd> PhD Student, Max Planck Institute for Intelligent Systems </dd>
-    <dt> Fall 2015</dt> <dd> Software Developer, Mashup Machine Inc., Vancouver </dd>
-    <dt> 2013 - 2015</dt> <dd>  Masters Student, Computer Science, University of British Columbia</dd> -->
-    <dt> Since 2016</dt> <dd> Matser student, Univeristy of Science and Techonology of China, P.R.China</dd>
-    <dt> 2017.8 - 2018.8</dt> <dd> Research Intern at Nanyang Techonology University, Singapore. Under supervision of <a href="http://www.ntu.edu.sg/home/asjfcai/">Prof.Jianfei Cai</a> and <a href="http://www.ntu.edu.sg/home/asjmzheng/">Prof.Jianmin Zheng</a></dd> 
-    <dt> 2012 - 2016</dt> <dd> Undergrad, Univeristy of Science and Technology of China, P.R.China</dd>
-  </ul>
- </div>
-</section>
-   <!--Publication Section
-   ================================================== -->
-   <section id="publication">
-
-    <div class="row add-bottom">
-
-         <div class="twelve columns">
-
-            <h1 align="center">Publications</h1>
-<!--             <hr>
-            <div class="row add-bottom">
-              <h2 align=center> Adversarial Collaboration</h2>
-              <h3 align=center> Joint Unsupervised Learning of Depth, Camera <br> Motion, Optical Flow and Motion Segmentation </h3>
-              <p align="center", class="lead add-bottom">
-                Anurag Ranjan, Varun Jampani, Kihwan Kim, Deqing Sun, Jonas Wulff, Michael J. Black
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <img src="images/ac_tease.jpg" >
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                        We address the unsupervised learning of several interconnected problems in low-level vision: single view depth prediction, camera motion estimation, optical flow and segmentation
-                        of a video into the static scene and moving regions. Our model is trained without any supervision and achieves state of the art results amongst unsupervised methods.
-                      </p>
-                      <p class="paper-links" align="center"> <a href="https://ps.is.tuebingen.mpg.de/publications/adversarial-collaboration" target="_blank" title="Project Page"><i class="fa fa-external-link"></i></a>
-                        <a href="https://github.com/anuragranj/ac" target="_blank" title="Code"><i class="fa fa-github"></i></a>
-                        <a href="https://arxiv.org/abs/1805.09806" target="_blank" title="Paper"><i class="fa fa-file"></i></a></p>
-                    </div>
-                </div>
-
-              </div>
-            <hr> -->
-
-            <div class="row add-bottom">
-              <h2 align=center> Disentangled 3D Face Shape Representation </h2>
-              <p align="center", class="lead add-bottom">
-                Zihang Jiang, Qianyi Wu, Keyu Chen, Juyong Zhang
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <img src="images/disentangle_face.jpg" >
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                      A disentangled 3D face shape representation which encode 3D face shape into expression and identity attributes using spectral graph convolutional network. 
-                      </p>
-                      <!-- <p class="paper-links" align="center"> 
-                        <a href="https://github.com/QianyiWu/Caricature-Data" target="_blank" title="Data"><i class="fa fa-github"></i></a>
-                        <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Alive_Caricature_From_CVPR_2018_paper.pdf" target="_blank" title="Paper"><i class="fa fa-file"></i></a>
-                        <a href="https://www.technologyreview.com/s/610714/the-best-of-the-physics-arxiv-week-ending-march-31-2018/" target="_blank" title="News"><i class="fa fa-external-link"></i></a>
-                      </p> -->
-                    </div>
-                </div>
-
-              </div>
-
-            <div class="row add-bottom">
-              <h2 align=center> Alive Caricature from 2D to 3D </h2>
-              <p align="center", class="lead add-bottom">
-                Qianyi Wu, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng, Jianfei Cai (CVPR 2018)(spotlight)
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <img src="images/Caricature.jpg" >
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                      A non-linear representation used for generating 3D caricature by 2D image and its annotated facial landmarks. 
-                      </p>
-                      <p class="paper-links" align="center"> 
-                        <a href="https://github.com/QianyiWu/Caricature-Data" target="_blank" title="Data"><i class="fa fa-github"></i></a>
-                        <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Alive_Caricature_From_CVPR_2018_paper.pdf" target="_blank" title="Paper"><i class="fa fa-file"></i></a>
-                        <a href="https://www.technologyreview.com/s/610714/the-best-of-the-physics-arxiv-week-ending-march-31-2018/" target="_blank" title="News"><i class="fa fa-external-link"></i></a>
-                      </p>
-                    </div>
-                </div>
-
-              </div>
-            <hr>
-
-            <!-- <div class="row add-bottom">
-              <h2 align=center> Unsupervised Learning of Multi-Frame Optical Flow with Occlusions </h2>
-              <p align="center", class="lead add-bottom">
-                Joel Janai, Fatma Güney, Anurag Ranjan, Michael J. Black and Andreas Geiger (ECCV 2018)
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <img src="https://ps.is.tue.mpg.de/uploads/publication/image/20263/thumb_lg_joeleccv18.png" >
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                        We propose a framework for unsupervised learning of optical flow and occlusions over multiple frames. Our multi-frame, occlusion-sensitive formulation outperforms existing unsupervised two-frame methods and even produces results on par with some fully supervised methods.
-                      </p>
-                      <p class="paper-links" align="center"> <a href="https://ps.is.tue.mpg.de/publications/janai2018eccv" target="_blank" title="Project Page"><i class="fa fa-external-link"></i></a>
-                        <a href="http://www.cvlibs.net/projects.php"" target="_blank" title="Code"><i class="fa fa-github"></i></a>
-                        <a href="http://www.cvlibs.net/publications/Janai2018ECCV.pdf" target="_blank" title="Paper"><i class="fa fa-file"></i></a></p>
-                    </div>
-                </div>
-
-              </div>
-            <hr>
-
-            <div class="row add-bottom">
-              <h2 align=center> Learning Human Optical Flow </h2>
-              <p align="center", class="lead add-bottom">
-                Anurag Ranjan, Javier Romero, Michael J. Black (BMVC 2018)
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <iframe width="420" height="200" src="https://www.youtube.com/embed/IFZbsDt9jMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                        Learning optical flow for humans is difficult. So, we created a synthetic dataset with realistic humans and trained a neural network on it.
-                      </p>
-                      <p class="paper-links" align="center"> <a href="http://humanflow.is.tue.mpg.de" target="_blank" title="Project Page"><i class="fa fa-external-link"></i></a>
-                        <a href="https://github.com/anuragranj/humanflow" target="_blank" title="Code"><i class="fa fa-github"></i></a>
-                        <a href="https://arxiv.org/abs/1806.05666" target="_blank" title="Paper"><i class="fa fa-file"></i></a></p>
-                    </div>
-                </div>
-
-              </div>
-            <hr>
-
-            <div class="row add-bottom">
-              <h2 align=center> SPyNet: Spatial Pyramid Network for Optical Flow </h2>
-              <p align="center", class="lead add-bottom">
-                Anurag Ranjan, Michael J. Black (CVPR 2017)
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <img src="images/sintel_pyramid.jpg" >
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                        SPyNet is the smallest deep network in the world that computes optical flow. It is smaller than Flownet by 97% and outperforms it significanly. Both code and trained models are available.
-                      </p>
-                      <p class="paper-links" align="center"> <a href="http://spynet.is.tue.mpg.de" target="_blank" title="Project Page"><i class="fa fa-external-link"></i></a>
-                        <a href="https://github.com/anuragranj/spynet" target="_blank" title="Code"><i class="fa fa-github"></i></a>
-                        <a href="https://arxiv.org/abs/1611.00850" target="_blank" title="Paper"><i class="fa fa-file"></i></a></p>
-                    </div>
-                </div>
-
-              </div>
-            <hr>
-
-            <div class="row add-bottom">
-              <h2 align=center> Interactive Gaze Driven Animation of the Eye Region </h2>
-              <p align="center", class="lead add-bottom">
-                Debanga R Neog, João L Cardoso, Anurag Ranjan, Dinesh K Pai (Web3D 2016)
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <iframe width="420" height="200" src="https://www.youtube.com/embed/FSae6RVllwQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                        A system for real-time animation of eyes that can be interactively controlled in a WebGL. This is the first system for real-time animation of soft tissue movement around the eyes based on gaze input.                      </p>
-                      <p class="paper-links" align="center"> <a href="http://www.cs.ubc.ca/research/eyemoveweb3d16/" target="_blank" title="Project Page"><i class="fa fa-external-link"></i></a>
-                      <a href="http://www.cs.ubc.ca/research/eyemoveweb3d16/Interactive%20Gaze%20Driven%20Animation%20of%20the%20Eye%20Region.pdf" target="_blank" title="Paper"><i class="fa fa-file"></i></a></p>
-                    </div>
-                </div>
-
-              </div>
-            <hr>
-
-            <div class="row add-bottom">
-              <h2 align=center> Learning Periorbital Soft Tissue Motion </h2>
-              <p align="center", class="lead add-bottom">
-                Anurag Ranjan (Master's Thesis, UBC 2015)
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <img src="images/periorbit.jpg" >
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                        We model the soft tissues around the eyes that are associated with subtle and fast motions and convey emotions during facial expressions. Our data driven model that can efficiently learn and reproduce the complex motion of these periorbital soft tissues.
-                        <p class="paper-links" align="center"> <a href="https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0166703" target="_blank" title="Project Page"><i class="fa fa-external-link"></i></a>
-                        <a href="media/Learning_Periorbital_Soft_Tissue_Motion.pdf" target="_blank" title="Paper"><i class="fa fa-file"></i></a></p>
-                    </div>
-                </div>
-
-              </div>
-            <hr>
-
-            <div class="row add-bottom">
-              <h2 align=center> Implementation of 3D object recognition and tracking </h2>
-              <p align="center", class="lead add-bottom">
-                Pankaj Bongale, Anurag Ranjan, Sahil Anand (RACSS 2012)
-              </p>
-
-                  <div class="row"> <div class="five columns">
-                    <img src="images/obj_recog_pcl.jpg" >
-                  </div>
-                    <div class="seven columns">
-                      <p class="add-bottom">
-                        This object recognition and tracking system utilizes the depth information from a low-cost depth sensor. This approach makes use of the depth information and 3d properties of objects inorder to accurately identify them independent of lighting conditions.
-                        <p class="paper-links" align="center">
-                        <a href="media/object_recognition_point_clouds.pdf" target="_blank" title="Paper"><i class="fa fa-file"></i></a></p>
-                    </div>
-                </div>
-
-              </div>
-            <hr> -->
-
-         </div>
-
-      </div> <!-- Row End-->
-
-   </section> <!-- Research Section End-->
-
-
-      <!-- <-- Bio Section -->
-
-    <section id="Link">
-     <div class="row add-bottom">
-        <div class="twelve columns" align="center">
-          <h1></h1>
-          <p> Life's a struggle.
-        </div>
-     </div>
-
-
-   </section>
-  <small> 食得咸鱼抵得渴 </small>
-  <small> Template from <a href="http://www.Styleshout.com">http://www.Styleshout.com</a> </small>
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-   <script>
-  	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-105425042-1', 'auto');
-  	ga('send', 'pageview');
-  </script>
-
+<div style="margin-bottom: 1em; border: 1px solid #ddd; background-color: #fff; padding: 1em; height: 140px;">
+<div style="margin: 0px auto; width: 100%;">
+<img title="Kunpeng" style="float: left; padding-left: .5em; height: 140px;" src="media/my_image.jpg" />
+<div style="padding-left: 12em; vertical-align: top; height: 120px;"><span style="line-height: 150%; font-size: 20pt;">Qianyi Wu</span><br />
+<span><strong>Master Student</strong></span><br />
+<!--<span><a href='http://cvrs.whu.edu.cn/'>Computer Vision & Remote Sensing (CVRS) Lab </a> <br /> </q>-->
+<span>School of Mathematical Science, University of Science and Technology of China.</span><br />
+<span><strong>Email  </strong>: wqy9619 [at] mail.ustc.edu.cn  &nbsp &nbsp  
+<strong><a href='https://github.com/QianyiWu'>Github</a></strong>  &nbsp &nbsp
+<strong><a href='media/CV.pdf'>CV</a></strong>  &nbsp &nbsp
+<!-- <strong><a href='https://scholar.google.com/citations?hl=zh-CN&user=0TOLw9YAAAAJ&view_op=list_works'>Google Scholar</a></strong></span><br/> -->
+<!-- <span><strong> <a href='https://github.com/kailigo'>Github</a> </strong></span> <br /> -->
+<!-- <span><strong> <a href='https://scholar.google.com/citations?hl=en&user=YsROc4UAAAAJ'>Google Scholar</a> </strong></span> <br /> -->
+</div>
+</div>
+</div>
+<!--<div style="clear: both; background-color: #fff; margin-top: 1.5em; padding: .2em; padding-left: .3em;">-->
+
+<div style="clear: both;">
+<div class="section">
+<h2>About Me</h2>
+<div class="paper">
+Qianyi Wu is currently a Master student in <a href="http://gcl.ustc.edu.cn/">Graphics and Geometric Computing Laboratory</a> of School of Mathematical Sciences at University of Science and Technology of China (USTC), under the supervision of <a href="http://staff.ustc.edu.cn/~juyong/">Prof. Juyong Zhang</a>. He obtained his Bachelor’s degree from School of Gifted Youth of USTC in 2016.
+</div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+  <h2>News</h2>
+  <div class="paper">
+    <ul>
+  <li> 2018.03: Our CVPR paper: <strong> Alive Caricature from 2D to 3D</strong> recommended by <a href="https://www.technologyreview.com/s/610714/the-best-of-the-physics-arxiv-week-ending-march-31-2018/">MIT Tech Review</a>.
+  <li> 2018.01: One paper is accepted by  <strong> CVPR 2018 </strong> as <strong> spotlight </strong>.</li>
+	<li> 2017.08: Research Intern at Nanyang Techonology University, Singapore, under supervision of <a href="http://www.ntu.edu.sg/home/asjfcai/">Prof.Jianfei Cai</a> and <a href="http://www.ntu.edu.sg/home/asjmzheng/">Prof.Jianmin Zheng</a> </li> 
+	<li> 2016.09: Start my research journey in USTC. </li> 
+    </ul>
+  </div>
+</div>
+</div>
+
+
+<div style="clear: both;">
+<div class="section">
+  <h2>Publications</h2>
+  <div class="paper">
+<!--   <h3 id="confpapers">Journals</h3>
+    <ul>
+	<li> <u>Kai Li</u> and Jian Yao. <i>Line Segment Matching and Reconstruction via Exploiting Coplanar Cues.</i>. <strong> ISPRS Journal of Photogrammetry and Remote Sensing</strong>, vol: 125, pages: 33-49, 2017. <a href='http://www.sciencedirect.com/science/article/pii/S0924271616301708'>[PDF]</a><a href='https://www.youtube.com/watch?v=Djh-NgZ9XEg&feature=youtu.be'>[Demo]</a>
+	</li>	
+	<li> <u>Kai Li</u>, Jian Yao, Xiaohu Lu, Li Li, and Zhichao Zhang. <i>Hierarchical Line Matching Based on Line-Junction-Line Structure Descriptor and Local Homography Estimation.</i>. <strong>Neurocomputing</strong>, vol: 186, pages: 207-220, 2016.<a href='http://www.sciencedirect.com/science/article/pii/S0925231215018998'>[PDF]</a><a href='https://github.com/kailigo/LineSegmentMatching'>[code]</a> -->
+	</li> 
+	</ul>	
+  <h3 id="confpapers">Conferences</h3>
+	<ul>
+    <li> <strong><u>Qianyi Wu</u></strong>, Juyong Zhang, Yu-Kun Lai, Jianmin Zheng, Jianfei Cai. <i> Alive Caricature from 2D to 3D (<strong>CVPR</strong>), 2018. <strong>(Spotlight)</strong> <a href='http://openaccess.thecvf.com/content_cvpr_2018/papers/Wu_Alive_Caricature_From_CVPR_2018_paper.pdf'>[PDF]</a><a href="https://github.com/QianyiWu/Caricature-Data">[Data]</a>
+  </li> 
+<!--   <li> Yulun Zhang, <strong><u>Kunpeng Li</u></strong>, Kai Li, Bineng Zhong, Yun Fu. <i> Residual Non-local Attention Networks for Image Restoration.</i> International Conference on Learning Representations (<strong>ICLR</strong>), 2019. <a href='https://openreview.net/pdf?id=HkeGhoA5FX'>[PDF]</a>[code]</a>
+  </li>	
+  <li><strong><u>Kunpeng Li</u></strong>, Ziyan Wu, Kuan-Chuan Peng, Jan Ernst, Yun Fu. <i> Tell Me Where to Look: Guided Attention Inference Network.</i> IEEE Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2018. <strong>(Spotlight)</strong> <a href='http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_Tell_Me_Where_CVPR_2018_paper.pdf'>[PDF]</a>[code]  <a href='https://github.com/kailigo/LR_ReID.git'>[code]</a> -->
+  <!-- <a href='./papers/accv16_LineReconstr.pdf'>[PDF]</a> -->
+	<!--  <a href='./papers/Line_Segment_Reconstruction_ICIP2016.pdf'>[PDF]</a>  -->
+  <!-- </li>	 -->
+  <!-- <li> Yulun Zhang, <strong><u>Kunpeng Li</u></strong>, Kai Li, Lichen Wang, Bineng Zhong, Yun Fu. -->
+  <!-- <i> Image Super-Resolution Using Very Deep Residual Channel Attention Networks.</i> European Conference on Computer Vision (<strong>ECCV</strong>), 2018. <a href='https://arxiv.org/abs/1807.02758'>[PDF]</a><a href='https://github.com/yulunzhang/RCAN'>[code]</a> -->
+  <!-- </li> -->
+  <!-- <li>Kai Li, Zhengming Ding, <strong><u>Kunpeng Li</u></strong>, Yulun Zhang, Yun Fu. <i> Support Neighbor Loss for Person Re-Identification.</i> ACM Multimedia (<strong>ACM MM</strong>), 2018. [PDF][code] -->
+  <!-- </li> -->
+  <!-- <li><strong><u>Kunpeng Li</u></strong>, Yu Kong, Yun Fu. <i> Multi-stream Deep Similarity Learning Networks for Visual Tracking.</i> International Joint Conference on Artificial Intelligence (<strong>IJCAI</strong>), 2017. <a href='https://www.ijcai.org/proceedings/2017/0301.pdf'>[PDF]</a><a href='https://drive.google.com/file/d/1WoUK3G4khzI_qw1T48hvxa-7yPYYv3Ua/view'>[Benchmark Results]</a><a href='https://www.youtube.com/watch?v=UgrwdRQYAIA'>[Video Results]</a> -->
+  <!-- <a href='./papers/accv16_LineReconstr.pdf'>[PDF]</a> -->
+	<!--  <a href='./papers/Line_Segment_Reconstruction_ICIP2016.pdf'>[PDF]</a>  -->
+  <!-- </li>	   -->
+  <!-- <li><strong><u>Kunpeng Li</u></strong>, Xin Zhang. <i>A New Fingertip Detection and Tracking Algorithm and Its Application on Writing-in-the-air System.</i> IEEE International Conference on Image Processing, 2014. <a href='https://drive.google.com/file/d/0B6GPXWGb8uiyYlh3OEJ1UkZycTA/view'>[PDF]</a><a href='https://drive.google.com/file/d/0B6GPXWGb8uiyUW8tN2tmUERxWmc/view'>[Journal]</a><a href='https://www.youtube.com/watch?v=gCHIq0OQwUM'>[Demo]</a> -->
+<!--  <a href='./papers/Line_Segment_Reconstruction_ICIP2016.pdf'>[PDF]</a>  --> 
+  </li>	
+   </ul>    
+  </div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">Awards</h2>
+<div class="paper">
+    <ul>
+  <li> National Scholarship, USTC, 2018. </li>
+  <li> Travel award for attending CVPR, 2018. </li>
+    </ul>
+</ul>
+</div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+<h2 id="confpapers">Professonal Activities</h2>
+<div class="paper">
+<ul>
+<p><font size="5">
+	<li> Reviewer for ACMMM 2018 </li>    	 	
+	<!-- <li> External Reviewer for CVPR, ICCV, ECCV, AAAI, IJCAI, AAAI (2017). </li> -->
+    <!-- <li> Guest reviewer for AAAI 2017. </li>    	  -->
+	<!-- <li> IEEE student member, AAAI student member. </li>    -->
+</font></p>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<!-- <div style="clear:both;">
+<p align="right"><font size="5">Last Updated on 11th Dec, 2017</a></font></p>
+<p align="right"><font size="5">Published with <a href='https://pages.github.com/'>GitHub Pages</a></font></p>
+</div> -->
+
+<!-- <hr> -->
+<!-- <!--  -->
+<!-- <div id="clustrmaps-widget"></div><script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=IF-jAGUNTygi5pa59hxIgtJU2XqT-rGoO58Z3E1vHZk&cl=ffffff&w=a"></script> -->
+<div id="clustrmaps-widget"></div><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=m&d=IF-jAGUNTygi5pa59hxIgtJU2XqT-rGoO58Z3E1vHZk'></script>
+<!-- -->
 </body>
-
 </html>
